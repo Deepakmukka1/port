@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>portfolio</title>
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 	  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 	  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 	   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
@@ -21,6 +21,22 @@
 
 			font-weight: bold;
 			font-family: 'Poppins',sans-serif;
+		}
+		.icons i{
+
+			position: relative;
+			margin: 10px;
+			font-size: 30px;
+			left: 99%;
+			margin-top: 310px;
+
+
+
+		}
+		.icons i:hover{
+
+			color: white;
+			transition: 0.8s;
 		}
 	    .contents{
 
@@ -49,6 +65,28 @@
 			right: -20%;
 
 
+		}
+		#downloads{
+
+			padding: 15px;
+			font-family: 'Oswald',sans-serif;
+			font-weight: bold;
+			border: 2px solid #FFD037;
+			letter-spacing: 1.3px;
+			border-radius: 30px;
+			background-color: #FFD037;
+			
+		}
+	    #downloads:hover{
+
+	    	background-color: #474BFF;
+	    	transition: 0.6s;
+	    	border: 2px solid #474BFF;
+	    }
+		#downloads a{
+
+			text-decoration: none;
+			color: black;
 		}
 		
 		svg{
@@ -315,7 +353,7 @@
             	transform: scale(0.3);
             	position: relative;
             	top: -45%;
-            	left: -20%;
+            	left: -15%;
             	
 
             }
@@ -332,7 +370,7 @@
             	transform: scale(0.3);
             	position: relative;
             	width: 100%;
-            	left: -8%;
+            	left: -1%;
             	margin-top: -5%;
             	
             }
@@ -343,7 +381,7 @@
             #Home .contents{
 
             	position: relative;
-            	top: -61%;
+            	top: -66%;
             	width: 70%;
             	left: 19%;
             }
@@ -360,18 +398,34 @@
 			position: relative;
 			    top: -50%;
             	width: 70%;
-            	left: 19%;
+            	left: 14%;
 
 
 		}
 		#Contactusid .contents{
 
 			position: relative;
-			    top: -36%;
-            	width: 70%;
-            	left: 19%;
+			    top: -39%;
+            	width: 100%;
+            	margin: 0;
+            	padding: 0;
+            
+		}
+		#Contactusid .contents .icons{
 
+			position: relative;
+			width: 160%;
+			left: -120%;
+				margin: -70%;/*change this when left is changed and vice versa*/
+            	padding: 0;
+            
+		}
 
+		
+		.icons i:hover{
+
+			color: white;
+			transition: 0.8s;
 		}
 
 
@@ -579,6 +633,7 @@
 <div class="contents">
 	
 	<p>I am an independent and self-motivated person, believes in continuous learning.I was born in khammam. I am currently pursuing my B.TECH in Computer Science Engineering in VIT Vellore. I am a hard worker and practical thinker. Love to solve practical problems.Passionate about my work.</p>
+	<button id="downloads"><a href="main resume.pdf" target="_blank" download>Download</a></button>
 
 	
 </div>	
@@ -795,7 +850,14 @@
   </g>
 </svg>
 <div class="contents">
-	<p>I am an independent and self-motivated person, believes in continuous learning.I was born in khammam. I am currently pursuing my B.TECH in Computer Science Engineering in VIT Vellore. I am a hard worker and practical thinker. Love to solve practical problems.Passionate about my work.</p>
+	I am an independent and self-motivated person, believes in continuous learning.I was born in khammam. I am currently pursuing my B.TECH in Computer Science Engineering in VIT Vellore. I am a hard worker and practical thinker. Love to solve practical problems.Passionate about my work.I am an independent and self-motivated person, believes in continuous learning.I was born in khammam. I am currently pursuing my B.TECH in Computer Science Engineering in VIT Vellore. I am a hard worker and practical thinker. Love to solve practical problems.Passionate about my work.
+	<div class="icons">
+	<a href=""><i class="fab fa-facebook"></i></a>
+	<a href=""><i class="fab fa-instagram"></i></a>
+	<a href=""><i class="fab fa-linkedin"></i></a>
+	<a href=""><i class="fab fa-medium"></i></a>
+	<a href=""><i class="fab fa-github"></i></a>
+	</div>
 </div>		
 </div>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
